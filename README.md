@@ -1,5 +1,5 @@
 # Precision-Analysis-of-Neural-Networks
-Code needed to generate results from my ICML 2017 paper as well as a forthcoming ICASSP paper (hopefully).
+Code needed to generate results from my ICML 2017 and ICASSP 2018 papers.
 
 Here you will find theano code needed to do the following: Training of baseline neural network, removal of dropout and batchnorm layers to obtain clean pre-trained networks (only dot products and activations), quantization noise gains calculation (the E values), inference in fixed-point (fixed-point simulation), and computational and representational costs evaluation routines (in order to make it easier to compute these costs given a network architecture), and all needed helper files.
 
